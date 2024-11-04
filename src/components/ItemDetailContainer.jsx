@@ -1,18 +1,27 @@
 import { useEffect, useState } from "react";
 //import "./Styles/Navbar.css"
-import { pedirItemPorId } from "./toolsFunction/toolsFunction";
+//import { pedirItemPorId } from "./toolsFunction/toolsFunction";
 import ItemDetail from "./ItemDetail";
 import { useParams } from "react-router-dom";
+import { doc, getDoc } from "firebase/firestore";
+import { db } from "./firebase/config";
 
-const ItemDetailContainer = ({itemId}) => {
+
+const ItemDetailContainer = () => {
   const [item, setItem] = useState(null);
   const id = useParams().id;
 
   useEffect(() => {
-      pedirItemPorId(Number(id))
-          .then((res) => {
-              setItem(res);
-          })
+  
+    const docRef = doc(db, "peliculas", id);
+
+    getDoc(docRef)
+      .then((resp) => {
+        setItem(
+          { ...resp.data(), id: resp.id }
+        );
+      })
+
   }, [id])
 
 

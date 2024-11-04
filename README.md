@@ -1,70 +1,78 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Title
 
-## Available Scripts
+ECOMMERCE
 
-In the project directory, you can run:
 
-### `npm start`
+## Venta de Peliculas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Appendix
 
-### `npm test`
+Any additional information goes here:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Esta aplicacion simula la venta de peliculas en linea, dependiendo de la categoria o genero del agrado del Cliente, misma que podra seleccionarla, asi como la cantidad y los precios por cada articulo, del cual podra ir seleccionando en la mis ma aplicacion hasta finalizar la compra con un numero de pedido para el cleinte.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Authors
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Jorge Luis Martinez Ramos, Todos os derechos reservados@
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https//github.com/CoderMarj/PreEntrega_Martinez
+## 🚀 About Me
+I'm a full stack developer...
 
-### `npm run eject`
+Con especialidad en JavaScript, entre otros lenguajes C, C++, Python, Kotlin, Rract-Native
+## 🔗 Links
+https//github.com/CoderMarj/PreEntrega_Martinez
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Hi, I'm Jorge 👋
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Other Common Github Profile Sections
+👩‍💻 I'm currently working on... Para el Gobierno del Estado de Chiapas
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🧠 I'm currently learning... React
 
-## Learn More
+👯‍♀️ I'm looking to collaborate on...
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🤔 I'm looking for help with...
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+💬 Ask me about...
 
-### Code Splitting
+📫 How to reach me...
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+😄 Pronouns...
 
-### Analyzing the Bundle Size
+⚡️ Fun fact...
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Derechos Reservados @
+[MIT](https://choosealicense.com/licenses/mit/)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Lessons Learned
 
-### Deployment
+What did you learn while building this project? What challenges did you face and how did you overcome them?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Install my-project with npm
+
+```bash
+  npm install peliculas
+  cd my-project
+```
+
+## 🛠 Skills
+Javascript, HTML, CSS...{ python, C++, C, Visual Basic, Kotlin}
+
+
+## Demo
+
+Insert gif or link to demo
+
+https//github.com/CoderMarj/PreEntrega_Martinez

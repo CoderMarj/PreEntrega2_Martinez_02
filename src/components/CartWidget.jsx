@@ -1,17 +1,21 @@
-import carrito from "../assets/carrito-rjo.png"
+import { useContext } from 'react'
+import { NavLink } from "react-router-dom";
+import { CartContext } from "./context/CartContext";
+import IconoCarrito from './IconoCarrito';
 
 
-const CartWidget = ({contador, children}) => {
+const CartWidget = () => {
+
+  const { cantidadEnCarrito } = useContext(CartContext)
 
   return (
     <>
-        {/* carrito */}
-        <div className="logo-container">
-          <img src={carrito} alt="carrito" />
-
-          <div className='texto-encima'><button className="boton-carrito">{contador}</button></div>
-         
-        </div>
+      <div className='numerito'>     
+        <NavLink to="/carrito">
+           <IconoCarrito />
+        </NavLink > 
+        <spam className = " numerito-carrito" >{cantidadEnCarrito()}</spam>
+        </div>  
     </>
   );
 };
